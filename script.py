@@ -10,12 +10,12 @@ def main():
 
     if isinstance (data, dict):
         data = [data]
-    
+    #Prueba 
     #Crear Dataframe en un archivo excel 
 
     df = pd.DataFrame(data)
     df.to_excel("output.xlsx", index=False)
     print("Archivo 'output.xlsx' generado exitosamente")
 
-    if __name__ == '__main__':
-        main()
+if __name__ == '__main__':
+    main()
